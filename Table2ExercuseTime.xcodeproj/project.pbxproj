@@ -14,6 +14,9 @@
 		81842F371FA91B3200BFFC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81842F351FA91B3200BFFC18 /* LaunchScreen.storyboard */; };
 		81842F421FA91B3300BFFC18 /* Table2ExercuseTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842F411FA91B3300BFFC18 /* Table2ExercuseTimeTests.swift */; };
 		81842F4D1FA91B3300BFFC18 /* Table2ExercuseTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842F4C1FA91B3300BFFC18 /* Table2ExercuseTimeUITests.swift */; };
+		81842F5B1FA91C8B00BFFC18 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842F5A1FA91C8B00BFFC18 /* Movie.swift */; };
+		81842F5D1FA91CA700BFFC18 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842F5C1FA91CA700BFFC18 /* MovieData.swift */; };
+		81842F621FA91E4E00BFFC18 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842F611FA91E4E00BFFC18 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		81842F481FA91B3300BFFC18 /* Table2ExercuseTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Table2ExercuseTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81842F4C1FA91B3300BFFC18 /* Table2ExercuseTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table2ExercuseTimeUITests.swift; sourceTree = "<group>"; };
 		81842F4E1FA91B3300BFFC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81842F5A1FA91C8B00BFFC18 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		81842F5C1FA91CA700BFFC18 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		81842F611FA91E4E00BFFC18 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				81842F2C1FA91B3200BFFC18 /* AppDelegate.swift */,
 				81842F2E1FA91B3200BFFC18 /* ViewController.swift */,
 				81842F301FA91B3200BFFC18 /* Main.storyboard */,
+				81842F611FA91E4E00BFFC18 /* MovieTableViewCell.swift */,
+				81842F601FA91DAD00BFFC18 /* Moduls */,
 				81842F331FA91B3200BFFC18 /* Assets.xcassets */,
 				81842F351FA91B3200BFFC18 /* LaunchScreen.storyboard */,
 				81842F381FA91B3200BFFC18 /* Info.plist */,
@@ -123,6 +131,15 @@
 				81842F4E1FA91B3300BFFC18 /* Info.plist */,
 			);
 			path = Table2ExercuseTimeUITests;
+			sourceTree = "<group>";
+		};
+		81842F601FA91DAD00BFFC18 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				81842F5C1FA91CA700BFFC18 /* MovieData.swift */,
+				81842F5A1FA91C8B00BFFC18 /* Movie.swift */,
+			);
+			path = Moduls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81842F621FA91E4E00BFFC18 /* MovieTableViewCell.swift in Sources */,
+				81842F5D1FA91CA700BFFC18 /* MovieData.swift in Sources */,
 				81842F2F1FA91B3200BFFC18 /* ViewController.swift in Sources */,
 				81842F2D1FA91B3200BFFC18 /* AppDelegate.swift in Sources */,
+				81842F5B1FA91C8B00BFFC18 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
